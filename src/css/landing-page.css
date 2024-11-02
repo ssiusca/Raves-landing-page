@@ -290,3 +290,72 @@
     height: 600px;
     margin: 0 2vw;
 }
+
+/* Contact us section */
+.contact-us-section {
+    margin:5vh 0;
+    text-align: center;
+    height: 60vh;
+}
+
+.contact-us-section h2 {
+    font-size: 4.25rem; 
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+.contact-us-social {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    gap: 100px;
+}
+
+.contact-us-social img{
+    margin: 15px;
+}
+
+.contact-us-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    width: 300px;
+}
+
+.contact-us-column h3 {
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.social-row {
+    display: flex;
+    gap: 20px;
+}
+
+.contact {
+    display: flex;
+    gap: 20px;
+    margin-top: 30px;
+    align-items: center;
+    height: 100px;
+}
+
+.contact.raves img:first-child{
+    height: 60px;
+}
+
+.contact.raves img:nth-child(2) {
+    height: 27px;
+}
+
+.contact-us-separator {
+    width: 2px;
+    height: 30%;
+    background-color: #000;
+    position: absolute;
+    left: 50vw;
+    transform: translateX(-50%); 
+}
