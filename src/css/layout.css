@@ -1,0 +1,74 @@
+/* General */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Alexandria", sans-serif;
+}
+
+html, body {
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+/* Fonts */
+h1 {
+    font-size: 4rem;
+    color: #000;
+    font-weight: 700;
+    text-shadow: 1px 1px 3px black;
+}
+
+a {
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p {
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #000000;
+}
+
+/* Nav */
+nav {
+    position: fixed;
+    width: 92vw;
+    z-index: 100;
+    background-color: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 4vw ;
+    height: 4vh;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 3vw;
+}
+
+nav img {
+    width: 200px;
+    margin-right: 3vw;
+}
+
+.auth-buttons {
+    display:flex;
+    gap: 3vw;
+}
+
+.auth-buttons a {
+    padding: 8px 40px;
+    text-decoration: none;
+    font-size: 1.25rem;
+    border-radius: 20px;
+    background-color: #5F9786;
+    transition: 0.3s ease;
+}
+
+.auth-buttons a:hover {
+    background-color: #FFBF00;
+}
