@@ -65,3 +65,62 @@
     z-index: -1;
     opacity: 0.8;
 }
+
+/*Download section*/
+.download-section {
+    margin-top:5vh;
+    height:95vh;
+    width: 80vw;
+    display: flex;
+    gap: 10vw;
+    margin-left: 10vw;
+    align-items: center;
+}
+
+.download-right {
+    text-align: center;
+    width: 60%;
+}
+
+.download-section h1 {
+    padding: 0 0 10vh;  
+    text-align: center;
+}
+
+
+.download-buttons{
+    display: flex;
+    justify-content: space-between;
+}
+
+.download-buttons a {
+    margin-top: 4vh;
+    display: flex;
+    gap: 10px;
+    color: #ffffff;
+    background-color: #AD45EC;
+    padding: 5px 10px 5px 20px;
+    width: 335px;
+    border-radius: 20px;
+    font-weight: 400;
+    text-decoration: none;
+    align-items: center;
+}
+
+.download-buttons a:first-of-type{
+    background-color: #4997D0;
+}
+
+/* Waves */
+.download-section::before {
+    content: "";
+    position: absolute;
+    top: 93%;
+    left: -5vw;
+    transform: scale(0.7, 0.5);
+    height: 828px;
+    width: 2436px;
+    background: url('../images/hero.png') no-repeat center;
+    z-index: -1;
+    opacity: 0.8;
+}
