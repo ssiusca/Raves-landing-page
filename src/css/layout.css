@@ -72,3 +72,39 @@ nav img {
 .auth-buttons a:hover {
     background-color: #FFBF00;
 }
+
+/* Footer */
+.footer-section {
+    background-color: #000;
+    color: #fff;
+    padding: 30px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: space-around;
+    width: 80vw;
+}
+
+.footer-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.25rem;
+    font-weight: 400;
+    transition: color 0.3s;
+    padding: 20px;
+}
+
+.footer-links a:hover {
+    color: #88D8C0;
+}
