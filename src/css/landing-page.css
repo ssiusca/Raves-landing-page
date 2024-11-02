@@ -252,3 +252,41 @@
 .carousel-item-4 .separator {
     left: 350%;
 }
+
+/* About us section*/
+.about-us-section {
+    display: flex;
+    padding: 20vh 5vw;
+    padding-left: 10vw;
+    gap: 2vw;
+}
+
+.about-us-info {
+    width: 43vw;
+}
+
+.about-us-info>div {
+    display: flex;
+    align-items: center;
+    gap: 2vw;
+    margin-top: 2vh;
+}
+
+.about-us-info p {
+    font-size: 1.2rem;
+    line-height: 24.38px;
+}
+
+.about-us-info h2 {
+    font-size: 4.25rem;
+    margin-bottom: 4vh;
+}
+
+.about-us-icono {
+    height: 60px;
+}
+
+.about-us-section>img {
+    height: 600px;
+    margin: 0 2vw;
+}
