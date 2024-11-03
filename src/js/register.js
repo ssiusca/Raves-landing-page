@@ -1,4 +1,4 @@
-//validacion formulario
+// Form validation
 const form = document.querySelector('form[name="frm"]');
 form.addEventListener("submit", (event) => {
   const femail = form.elements["femail"].value;
@@ -15,7 +15,6 @@ form.addEventListener("submit", (event) => {
   } 
 });
 
-//crear funcion validateEmail(femail)
 function validateEmail(femail) {
   const re = /^[a-zA-Z0-9._]+@[a-zA-Z]+\.[a-zA-Z]/;
   return re.test(String(femail).toLowerCase());
