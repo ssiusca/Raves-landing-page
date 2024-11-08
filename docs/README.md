@@ -8,11 +8,13 @@ Es más que una simple aplicación de música; es un lugar donde la música une 
 
 ## 🚀 **Características Principales**
 
-- **Sesiones en vivo**: Disfruta de conciertos virtuales y transmisiones de DJs en tiempo real.
-- **Perfiles personalizados**: Crea tu propio perfil musical y comparte tus preferencias, listas de reproducción y eventos favoritos.
-- **Descubrimiento de música**: Explora nuevos géneros y artistas según tus gustos y el de tus amigos.
-- **Conexiones sociales**: Encuentra y conecta con personas que comparten tus intereses musicales.
-- **Experiencias globales**: Vive la música como nunca antes, con usuarios y eventos de todo el mundo.
+- **Sincronización de ondas musicales**: Permite a los usuarios crear sesiones en vivo donde varias personas pueden escuchar la misma música en tiempo real.
+- **Creación de Perfiles**: Cada usuario tiene un perfil que refleja sus géneros musicales favoritos y listas de reproducción personalizadas. Estos pueden ser compartidos y comparados con otros para encontrar afinidades musicales.
+- **Explorador de Conexiones**: Utiliza algoritmos para sugerir usuarios, comunidades, canciones, playlists, artista y álbumes.
+- **Mapa Musical**: Ofrece la posibilidad de explorar música geolocalizada en tiempo real, conectando a los usuarios con escenas musicales locales y globales, y facilitando el descubrimiento de música popular o emergente en diferentes regiones.
+- **Comunidades**: Los usuarios pueden unirse a comunidades basadas en géneros musicales, artistas específicos o temas de interés musical, en las cuales se puede publicar y comentar sobre temas relacionados.
+- **Biblioteca**: Una manera fácil de gestionar las playlists, álbumes y artistas seguidos por el usuario.
+- **Chats**: Permite a los usuarios comunicarse entre ellos, mostrando el listado de chats para cada amigo que se posee.
 
 ---
 
@@ -43,10 +45,9 @@ Aquellas personas que desean conocer nuevos géneros musicales y artistas de alr
 
 ---
 
-## 📱 **Interfaz de Raves**
+## 📱 **Landing Page de Raves**
 
-![Captura de Pantalla 1](ruta/a/tu/imagen1.png)
-![Captura de Pantalla 2](ruta/a/tu/imagen2.png)
+![Captura de Pantalla](../src/images/interfaz_web.jpeg)
 
 ---
 
